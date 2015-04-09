@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceBookApp.Models", "FaceBookApp.Models\FaceBookApp.Models.csproj", "{A4829204-157D-4020-A6CC-70F683899224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceBookApp.Data", "FaceBookApp.Data\FaceBookApp.Data.csproj", "{3EA3CB9A-0A5D-4D2D-BC94-5FA48BE8975C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBApp.ConsoleClient", "FBApp.ConsoleClient\FBApp.ConsoleClient.csproj", "{CF21D2D0-37AF-46A1-9CE8-B718D7F9802A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceBookApp.Services", "FaceBookApp.Services\FaceBookApp.Services.csproj", "{756E5FAE-7057-4B60-B5DB-A9CE35349737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4829204-157D-4020-A6CC-70F683899224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4829204-157D-4020-A6CC-70F683899224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4829204-157D-4020-A6CC-70F683899224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4829204-157D-4020-A6CC-70F683899224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA3CB9A-0A5D-4D2D-BC94-5FA48BE8975C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA3CB9A-0A5D-4D2D-BC94-5FA48BE8975C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA3CB9A-0A5D-4D2D-BC94-5FA48BE8975C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA3CB9A-0A5D-4D2D-BC94-5FA48BE8975C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF21D2D0-37AF-46A1-9CE8-B718D7F9802A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF21D2D0-37AF-46A1-9CE8-B718D7F9802A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF21D2D0-37AF-46A1-9CE8-B718D7F9802A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF21D2D0-37AF-46A1-9CE8-B718D7F9802A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756E5FAE-7057-4B60-B5DB-A9CE35349737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756E5FAE-7057-4B60-B5DB-A9CE35349737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756E5FAE-7057-4B60-B5DB-A9CE35349737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756E5FAE-7057-4B60-B5DB-A9CE35349737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
