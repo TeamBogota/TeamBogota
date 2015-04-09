@@ -12,12 +12,12 @@
 
             var user = new User
             {
-                Username = "Pesho",
-                Password = "Pesho",
+                Username = "Pecata",
+                Password = "Pecata",
                 Birthday = new DateTime(1981, 11, 20),
-                FirstName = "Pesho",
-                LastName = "Pesho",
-                Email = "pesho@gmail.com",
+                FirstName = "Petko",
+                LastName = "Petkov",
+                Email = "Pecata@gmail.com",
                 Gender = Gender.Male
             };
 

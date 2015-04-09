@@ -10,7 +10,7 @@
         public FaceBookAppDbContext()
             : base("FaceBookAppConnection")
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<FaceBookAppDbContext, Configuration>());
+            Database.SetInitializer(new DropCreateDatabaseAlways<FaceBookAppDbContext>());
         }
 
         public IDbSet<User> Users { get; set; }

@@ -2,7 +2,7 @@ namespace FaceBookApp.Data.Migrations
 {
     using System.Data.Entity.Migrations;
 
-    public sealed class Configuration : DbMigrationsConfiguration<FaceBookApp.Data.FaceBookAppDbContext>
+    public sealed class Configuration : DbMigrationsConfiguration<FaceBookAppDbContext>
     {
         public Configuration()
         {

@@ -1,4 +1,6 @@
-﻿namespace FaceBookApp.Models
+﻿using System.Data;
+
+namespace FaceBookApp.Models
 {
     using System;
     using System.Collections.Generic;
@@ -27,6 +29,8 @@
         public Gender Gender { get; set; }
 
         public DateTime Birthday { get; set; }
+
+        public int WallId { get; set; }
 
         public virtual Wall Wall { get; set; }
 
